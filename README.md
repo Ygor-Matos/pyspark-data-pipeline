@@ -33,31 +33,6 @@ O projeto demonstra habilidades em **processamento de dados em larga escala, tra
 
 ---
 
-## 📝 Schema Esperado dos Dados
-
-### Vendas (`vendas.csv`)
-| Coluna        | Tipo     | Exemplo            |
-|---------------|----------|--------------------|
-| id_venda      | int      | 1                  |
-| data_venda    | string   | 2023-06-15         |
-| local_venda   | string   | Sao Paulo          |
-| tipo_maquina  | string   | Trator             |
-| valor_total   | double   | 120000.50          |
-| revendedor_id | int      | 101                |
-
-### Cotações (`cotacoes.csv`)
-| Coluna          | Tipo     | Exemplo            |
-|-----------------|----------|--------------------|
-| id_cotacao      | int      | 5001               |
-| data_cotacao    | string   | 2023-06-10         |
-| local_cotacao   | string   | Sao Paulo          |
-| maquina_cotada  | string   | Trator Modelo X    |
-| valor_estimado  | double   | 118000.00          |
-| revendedor_id   | int      | 101                |
-| status_cotacao  | string   | Aprovada           |
-
----
-
 ## 📊 Funcionalidades do Projeto
 
 - **Limpeza e padronização de dados**  
